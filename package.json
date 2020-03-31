@@ -1,0 +1,30 @@
+{
+  "name": "burger.api",
+  "version": "1.0.0",
+  "description": "Réalisation d’une application Node.JS permettant de réaliser des commandes aux bornes d’un fast food, d'un téléphone et de gérer aussi les comandes en cuisine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fm65/burger.api.git"
+  },
+  "keywords": [
+    "GitHub651994p@"
+  ],
+  "author": "Océane DENIS & Fidel MONTEIRO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fm65/burger.api/issues"
+  },
+  "homepage": "https://github.com/fm65/burger.api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config.json": "0.0.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  }
+}
